@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Factorial Program</title>
+    <script>
+        function factorial(num) {
+            let fact = 1;
+            for (let i = 1; i <= num; i++) {
+                fact = fact * i;
+            }
+            return fact;
+        }
+
+        let n = parseInt(prompt("Enter a number:"));
+        let result = factorial(n);
+        document.write("Factorial of " + n + " is: " + result);
+    </script>
+</head>
+<body>
+</body>
+</html>
